@@ -1,0 +1,8 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"item": "naturality:tofite_ore"
+	},
+	"result": {"item":"naturality:tofite"},
+	"experience": 10
+}

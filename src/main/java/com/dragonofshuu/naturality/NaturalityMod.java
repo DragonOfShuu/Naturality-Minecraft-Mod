@@ -1,5 +1,6 @@
 package com.dragonofshuu.naturality;
 
+import com.dragonofshuu.naturality.item.ModBlocks;
 import com.dragonofshuu.naturality.item.ModItems;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -23,7 +24,8 @@ public class NaturalityMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
+        ModItems.registerToBus(modEventBus);
+        ModBlocks.registerToBus(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
