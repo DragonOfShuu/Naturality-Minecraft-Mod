@@ -1,7 +1,9 @@
 package com.dragonofshuu.naturality;
 
-import com.dragonofshuu.naturality.item.ModBlocks;
+import com.dragonofshuu.naturality.block.ModBlocks;
 import com.dragonofshuu.naturality.item.ModItems;
+import com.dragonofshuu.naturality.world.feature.ModConfiguredFeatures;
+import com.dragonofshuu.naturality.world.feature.ModPlacedFeatures;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +28,9 @@ public class NaturalityMod
 
         ModItems.registerToBus(modEventBus);
         ModBlocks.registerToBus(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

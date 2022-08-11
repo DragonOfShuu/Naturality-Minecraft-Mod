@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"naturality:tofite_ore",
+		"naturality:deepslate_tofite_ore",
+		"naturality:netherrack_tofite_ore",
+		"naturality:endstone_tofite_ore",
+		"naturality:tofite_block"
+	]
+}

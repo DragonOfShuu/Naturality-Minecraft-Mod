@@ -1,4 +1,8 @@
 {
     "item.naturality.tofite": "Tofite",
-    "block.naturality.tofite_ore": "Tofite Ore"
+    "block.naturality.tofite_ore": "Tofite Ore",
+    "block.naturality.deepslate_tofite_ore": "Deepslate Tofite Ore",
+    "block.naturality.netherrack_tofite_ore": "Netherrack Tofite Ore",
+    "block.naturality.endstone_tofite_ore": "Endstone Tofite Ore",
+    "block.naturality.tofite_block": "Tofite Block"
 }
